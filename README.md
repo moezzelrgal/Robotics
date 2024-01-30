@@ -24,11 +24,11 @@ This Arduino project controls a robotic car's movement using Bluetooth communica
  
 This project is an obstacle-avoiding robot built using an Arduino board and an ultrasonic sensor. The robot is designed to navigate its environment autonomously while avoiding obstacles in its path.
 
-### [Project 2: [Line follower Car]](Line_Follower_Code.ino)
+### [Project 3: [Line follower Car]](Line_Follower_Code.ino)
  
 This project is a basic line follower robot that uses two infrared (IR) sensors to detect and follow a black line on a white surface. The Arduino board is connected to two IR sensors and two DC motors, each controlling one side of the robot's movement.
 
-### [Project 3: [Fire and Smoke Detection]](Fire_Smoke_With_buzzer_MQ2_IR.ino)
+### [Project 4: [Fire and Smoke Detection]](Fire_Smoke_With_buzzer_MQ2_IR.ino)
 
 This project is a Fire and Smoke Detection System that utilizes gas and IR sensors to detect the presence of fire and smoke. It includes an Arduino board connected to an LCD display and a buzzer.
 
