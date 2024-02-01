@@ -32,4 +32,12 @@ This project is a basic line follower robot that uses two infrared (IR) sensors 
 
 This project is a Fire and Smoke Detection System that utilizes gas and IR sensors to detect the presence of fire and smoke. It includes an Arduino board connected to an LCD display and a buzzer.
 
+### [Project 5: [Arduino Servo Position Control with LCD Display]](Arduino_Servo_Position_Control_with_LCD_Display.ino)
+
+This project utilizes a servo motor and a potentiometer to create a simple servo position control system with visual feedback displayed on a 16x2 LCD screen.
+
+### [Project 6: [Fire Detection System with Remote-Controlled Car and Servo Sweep]](Fire_Detection_System_with_Remote_Controlled_Car_and_Servo_Sweep.ino)
+
+The primary goal of this project is to create a remote-controlled car capable of detecting fires using an IR sensor. The addition of a servo motor allows the car to sweep its surroundings, enhancing its fire detection capabilities. This system can be useful for early fire detection and prevention, especially in areas where human access is limited or hazardous.
+
 
