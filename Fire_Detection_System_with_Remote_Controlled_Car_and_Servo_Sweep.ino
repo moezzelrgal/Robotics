@@ -1,7 +1,8 @@
 #include <Servo.h>
 
-Servo myservo;
+Servo myservo; // Define servo object
 
+// Define pin assignments
 #define speedRight 5
 #define in1 6
 #define in2 7
@@ -11,19 +12,20 @@ Servo myservo;
 #define IR 3
 #define buzzer 4
 
-char bt;
-bool IrRead;
+char bt; // Variable to store received character
+bool IrRead; // Variable to store IR sensor reading
 
 void setup() {
-  myservo.attach(11);
-  pinMode(buzzer, OUTPUT);
-  pinMode(IR, INPUT);
+  myservo.attach(11); // Attach servo to pin 11
+  pinMode(buzzer, OUTPUT); // Set buzzer pin as OUTPUT
+  pinMode(IR, INPUT); // Set IR sensor pin as INPUT
+
   // Set all defined pins as OUTPUT
   for (int pin = 5; pin <= 10; pin++) {
     pinMode(pin, OUTPUT);
   }
-  // Initialize serial communication at 9600 baud rate
-  Serial.begin(9600);
+
+  Serial.begin(9600); // Initialize serial communication
 }
 
 void loop() {
