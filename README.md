@@ -1,5 +1,8 @@
 # Robotics
 
+![71WOtO-iM0L _AC_SL1500___1_](https://github.com/moezzelrgal/Model_Based_Development/assets/101054811/e235cd3e-ce3d-4186-9e9f-251d41129eb7)
+
+
 ## Overview
 
 This repository is dedicated to my studies and projects related to Robotics. Robotics with Arduino involves using Arduino microcontroller boards to build and control robots. It relies on simple software running on these boards. This README provides an overview of the contents of the repository and guidance on how to navigate through the different components.
